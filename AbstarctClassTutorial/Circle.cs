@@ -17,5 +17,11 @@ namespace AbstarctClassTutorial
         {
             return Math.PI * (Math.Pow(Radius, 2.0));
         }
+
+        public override void GetInfo()
+        {
+            base.GetInfo();
+            Console.WriteLine($"It has a radius of {Radius}");
+        }
     }
 }
